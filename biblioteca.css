@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto';
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* ---------- MARGIN ---------- */
+
+.m-1{
+	margin: 1em;
+}
+
+.m-2{
+	margin: 2em;
+}
+
+.m-3{
+	margin: 3em;
+}
+
+.m-4{
+	margin: 4em;
+}
+
+.mt-1{
+	margin-top: 1em;
+}
+
+.mt-2{
+	margin-top: 2em;
+}
+
+.mt-3{
+	margin-top: 3em;
+}
+
+.mt-4{
+	margin-top: 4em;
+}
+
+.mb-1{
+	margin-bottom: 1em;
+}
+
+.mb-2{
+	margin-bottom: 2em;
+}
+
+.mb-3{
+	margin-bottom: 3em;
+}
+
+.mb-4{
+	margin-bottom: 4em;
+}
+
+.ml-1{
+	margin-left: 1em;
+}
+
+.ml-2{
+	margin-left: 2em;
+}
+
+.ml-3{
+	margin-left: 3em;
+}
+
+.ml-4{
+	margin-left: 4em;
+}
+
+.mr-1{
+	margin-right: 1em;
+}
+
+.mr-2{
+	margin-right: 2em;
+}
+
+.mr-3{
+	margin-right: 3em;
+}
+
+.mr-4{
+	margin-right: 4em;
+}
+
+/* ---------- PADDING ---------- */
+
+.p-1{
+	padding: 1em;
+}
+
+.p-2{
+	padding: 2em;
+}
+
+.p-3{
+	padding: 3em;
+}
+
+.p-4{
+	padding: 4em;
+}
+
+.pt-1{
+	padding-top: 1em;
+}
+
+.pt-2{
+	padding-top: 2em;
+}
+
+.pt-3{
+	padding-top: 3em;
+}
+
+.pt-4{
+	padding-top: 4em;
+}
+
+.pb-1{
+	padding-bottom: 1em;
+}
+
+.pb-2{
+	padding-bottom: 2em;
+}
+
+.pb-3{
+	padding-bottom: 3em;
+}
+
+.pb-4{
+	padding-bottom: 4em;
+}
+
+.pl-1{
+	padding-left: 1em;
+}
+
+.pl-2{
+	padding-left: 2em;
+}
+
+.pl-3{
+	padding-left: 3em;
+}
+
+.pl-4{
+	padding-left: 4em;
+}
+
+.pr-1{
+	padding-right: 1em;
+}
+
+.pr-2{
+	padding-right: 2em;
+}
+
+.pr-3{
+	padding-right: 3em;
+}
+
+.pr-4{
+	padding-right: 4em;
+}
+
+/* ---------- WIDTH ---------- */
+
+.w-1{
+	width: 10%;
+}
+
+.w-2{
+	width: 20%;
+}
+
+.w-3{
+	width: 30%;
+}
+
+.w-4{
+	width: 40%;
+}
+
+.w-5{
+	width: 50%;
+}
+
+.w-6{
+	width: 60%;
+}
+
+.w-7{
+	width: 70%;
+}
+
+.w-8{
+	width: 80%;
+}
+
+.w-9{
+	width: 90%;
+}
+
+.w-10{
+	width: 100%;
+}
+
+/* ---------- COLORS ----------*/
+
+.color-primary{
+	color: #03dac6;
+}
+
+.color-light{
+	color: #ffffff;
+}
+
+/* ---------- BACKGROUNDS DARKS ----------*/
+
+.bg-dark-0{
+	background: #000000;
+}
+
+.bg-dark-1{
+	background: #050505;
+}
+
+.bg-dark-2{
+	background: #090909;
+}
+
+.bg-dark-3{
+	background: #111111;
+}
+
+/* ---------- BACKGROUNDS GREY ---------- */
+
+.bg-grey-0{
+	background: #333333;
+}
+
+.bg-grey-1{
+	background: #444444;
+}
+
+.bg-grey-2{
+	background: #555555;
+}
+
+.bg-grey-3{
+	background: #666666;
+}
+
+/* ---------- BACKGROUNDS LIGHT ---------- */
+
+.bg-light-0{
+	background: #BBBBBB;
+}
+
+.bg-light-1{
+	background: #CCCCCC;
+}
+
+.bg-light-2{
+	background: #DDDDDD;
+}
+
+.bg-light-3{
+	background: #f2f2f2;
+}
+
+.bg-light-4{
+	background: #ffffff;
+}
+
+
+
+/* ---------- BORDER ---------- */
+
+.divisor{
+	border-bottom: 1px solid;
+}
+
+.border-bottom-primary{
+	border-bottom: solid 2px #03dac6;
+}
+
+/* ------------- DISPLAY FLEX  -------------*/ 
+
+.flex{
+	display: flex;
+}
+
+.column{
+	flex-direction: column;
+}
+
+.justify-center{
+	justify-content: center;
+}
+
+.justify-around{
+	justify-content: space-around;
+}
+
+.item-center{
+	align-items: center;
+}
+
+/* ----------- CONTAINER ----------- */
+
+.container{
+	margin: auto;
+	width: 90%;
+}
+
+.box{
+	border-radius: 6px;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.box-content{
+	display: flex;
+	justify-content: center;
+	padding: 8px 5px;
+}
+
+/* ------------- BUTTON --------------- */
+
+.btn-primary{
+    background: #111;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: .7rem;
+    margin: .1rem .3rem;
+    border-radius: 8%;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.btn-primary:hover{
+    transition: .1s;
+    background: #000;
+    transform: scale(1.15);
+}
+
+.btn-primary:active{
+    border:none;
+    background: rgb(20, 20, 20);
+}
+
+/* -------------- NAV -------------- */
+
+.navbar, .navbar ul{
+	display: flex;
+}
+
+.navbar ul a{
+	padding: 20px;
+}
+
+/* -------------- ANCHOR -------------- */
+
+.a-1{
+	color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.a-1:hover{
+	color: #03dac6;
+    transition: .3s;
+}
+
+
+/* ---------------- OTROS -------------- */
+
+.non-selectable{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
