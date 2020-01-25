@@ -241,33 +241,33 @@ a{
 }
 
 .bg-dark-1{
-	background: #070707;
+	background: #111111;
 }
 
 .bg-dark-2{
-	background: #151515;
+	background: #222222;
 }
 
 .bg-dark-3{
-	background: #222222;
+	background: #333333;
 }
 
 /* ---------- BACKGROUNDS GREY ---------- */
 
 .bg-grey-0{
-	background: #333333;
-}
-
-.bg-grey-1{
 	background: #444444;
 }
 
-.bg-grey-2{
+.bg-grey-1{
 	background: #555555;
 }
 
-.bg-grey-3{
+.bg-grey-2{
 	background: #666666;
+}
+
+.bg-grey-3{
+	background: #777777;
 }
 
 /* ---------- BACKGROUNDS LIGHT ---------- */
